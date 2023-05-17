@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do While</title>
+</head>
+<body>
+<center>
+<h1>Actividad 3</h1>
+<br>
+<h3>Consigna:</h3>
+<p>Escribe un bucle do while que sume los números ingresados por el usuario y los imprima en la consola, deteniéndose cuando el usuario ingrese el número cero.</p>
+<h3>Código utilizado:</h3>
+<p>
+	let numero;
+	<br>
+	let suma = 0;
+	<br>
+	do {
+	<br>
+	numero=parseFloat(prompt ("Ingrese un número para sumar"));
+	<br>
+	if (!isNaN(numero)){
+	<br>
+	suma = suma+numero;
+	<br>
+	}
+	<br>
+	}
+	<br>
+	while (numero != 0)
+	<br>
+	alert ("La suma es " +suma);
+</p>
+
+<script>
+	let numero;
+	let suma = 0;
+	do {
+	numero=parseFloat(prompt ("Ingrese un número para sumar"));
+	if (!isNaN(numero)){
+	suma = suma+numero;
+	}
+	}
+	while (numero != 0)
+	alert ("La suma es " +suma);
+</script>
+
+</center>
+</body>
+</html>

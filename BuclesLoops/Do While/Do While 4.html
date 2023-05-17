@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do While</title>
+</head>
+<body>
+<center>
+<h1>Actividad 4</h1>
+<br>
+<h3>Consigna:</h3>
+<p>Crea un bucle do while que le pida al usuario que adivine un número del 1 al 10, y sigue pidiendo intentos hasta que adivine el número correcto.</p>
+<h3>Código utilizado:</h3>
+<p>
+const numerorandom=Math.floor(Math.random()*10) +1;
+<br>
+usuario=prompt("Adivine el número del 1 al 10");
+<br>
+do{
+<br>
+alert("El número no es válido, sigue intentando");
+<br>
+usuario=prompt("Adivine el numero del 1 al 10");
+<br>
+}
+<br>
+while(numerorandom!=usuario);
+<br>
+alert("GANASTE");
+</p>
+
+<script>
+	const numerorandom=Math.floor(Math.random()*10) +1;
+usuario=prompt("Adivine el número del 1 al 10");
+do{
+	alert("El número no es válido, sigue intentando");
+	usuario=prompt("Adivine el numero del 1 al 10");
+	
+}
+while(numerorandom!=usuario);
+alert("GANASTE");
+</script>
+
+</center>
+</body>
+</html>
